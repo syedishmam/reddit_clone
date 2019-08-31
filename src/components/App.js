@@ -1,12 +1,16 @@
 import React from 'react';
 
+import Nav from './Nav';
 
-function App() {
-  return (
-    <div className="App container border border-primary">
-      test
-    </div>
-  );
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Nav />
+      </div>
+    );
+  }
 }
 
 export default App;
