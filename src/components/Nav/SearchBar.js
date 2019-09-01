@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/SearchBarStyles.css';
+import '../../styles/SearchBar.css';
 
 class SearchBar extends React.Component {
     handleKeyDown(e) {
@@ -11,7 +11,7 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-          <div className="border">
+          <div className="search-bar-container">
             <input onKeyDown={this.handleKeyDown} type="text" className="search-bar my-1"/>
           </div>  
         );
