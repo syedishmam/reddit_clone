@@ -1,5 +1,5 @@
 .centered {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 22vw;
+    margin-right: 3vw;
+    width: 75vw;
 }

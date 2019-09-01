@@ -6,7 +6,7 @@ class Nav extends React.Component {
     render() {
         return (
           <div className="border">
-            <input type="text" className="mx-auto"/>
+            <input type="text" className="centered"/>
           </div>  
         );
     }
