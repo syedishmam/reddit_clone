@@ -1,12 +1,12 @@
 import React from 'react';
 
-import '../styles/NavStyles.css';
+import SearchBar from './SearchBar';
 
 class Nav extends React.Component {
     render() {
         return (
           <div className="border">
-            <input type="text" className="centered"/>
+            <SearchBar />
           </div>  
         );
     }
