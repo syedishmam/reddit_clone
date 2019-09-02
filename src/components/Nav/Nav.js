@@ -11,9 +11,7 @@ class Nav extends React.Component {
         return (
           <div className="nav-container pl-3 pr-3 border d-flex flex-row align-items-center justify-content-around">
             <RedditLogo />
-            <DropDown />
             <SearchBar />
-            <UserActions />
           </div>  
         );
     }
