@@ -7,8 +7,8 @@ class DropDown extends React.Component {
   render(){
     return(
       <div class="dropdown dropdown-container">
-        <button class="btn border dropdown-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown button
+        <button class="btn border dropdown-btn m-0 p-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Subreddits
           <span className="float-right"> &#9660; </span>
         </button>
         <div class="dropdown-menu w-100 m-0 p-0" aria-labelledby="dropdownMenuButton">
