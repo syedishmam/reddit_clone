@@ -6,15 +6,15 @@ class DropDown extends React.Component {
   
   render(){
     return(
-      <div class="dropdown dropdown-container">
-        <button class="btn border dropdown-btn m-0 p-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <div className="dropdown dropdown-container">
+        <button className="btn border dropdown-btn m-0 p-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Subreddits
           <span className="float-right"> &#9660; </span>
         </button>
-        <div class="dropdown-menu w-100 m-0 p-0" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item border-bottom" href="#">Sample</a>
-          <a class="dropdown-item border-bottom " href="#">Sample</a>
-          <a class="dropdown-item border-bottom" href="#">Sample</a>
+        <div className="dropdown-menu w-100 m-0 p-0" aria-labelledby="dropdownMenuButton">
+          <a className="dropdown-item border-bottom" href="#">Sample</a>
+          <a className="dropdown-item border-bottom " href="#">Sample</a>
+          <a className="dropdown-item border-bottom" href="#">Sample</a>
         </div>
       </div>
     )
