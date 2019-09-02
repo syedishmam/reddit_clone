@@ -1,8 +1,6 @@
 import React from 'react';
 
 import SearchBar from './SearchBar';
-import DropDown from './DropDown';
-import UserActions from './UserActions';
 import {RedditLogo} from '../../logos';
 import '../../styles/NavContainer.css';
 
